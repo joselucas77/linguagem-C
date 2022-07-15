@@ -28,7 +28,7 @@ int main() {
 
     if (city == "Pipa") {
         if (rooms == 2) {
-            total_trip = 600 + 75 * people;
+            total_trip = 600 + (75 * people);
             total_person = total_trip / people;
         }
         else {
@@ -42,7 +42,7 @@ int main() {
                 total_person = total_trip / people;
         }
         else {
-            total_trip = 1120 + 60 * people;
+            total_trip = 1120 + (60 * people);
             total_person = total_trip / people;
         }
     }
